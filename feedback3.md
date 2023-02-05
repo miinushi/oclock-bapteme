@@ -20,6 +20,12 @@ Hey ! Et une review sur le feu, une !
 Je te conseille vivement de ne pas rester bloqué si tu ne comprends pas une consigne, n'hésite pas à me contacter pour que je puisse t'aider et bien t'expliquer certaines notions qui pourraient te bloquer dans ta 
 progression.
 
+## Ressource
+
+- [Comment construire une application avec express et postgreSQL](https://dev.to/glaucia86/developing-a-crud-node-js-application-with-postgresql-4c9o)
+- [POO en Javascript](https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/Basics)
+- [Comment utiliser EJS](https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application-fr)
+
 ## Bugs 
 
 - Seul la page principale s'affiche, le deck n'est malheureusement pas accessible, les recherches n'ont plus.
