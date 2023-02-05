@@ -5,25 +5,25 @@ En avant toute !
 # Review
 
 - La table Address:
-1. Il faudra que tu renommes le champ "adress" car il est mal orthographié 
-2. Il faudra également modifier la cardinalité 0, N avec User en 1, N car dans un modèle classique, lorsque l'User se login, il devrait avoir moins une adresse
+    - Il faudra que tu renommes le champ "adress" car il est mal orthographié 
+    - Il faudra également modifier la cardinalité 0, N avec User en 1, N car dans un modèle classique, lorsque l'User se login, il devrait avoir moins une adresse
 
 - La table Product:
-1. Tu devras également changer la relation Many To Many qui ne se représente pas exactement comme ça dans le langage merise, tu devrais le représenter via l'utilisation de cardinalités 0, N/1, N <=> 0, N/1, N
-2. Tu peux aussi renommer le champ "amount" en "prince", car avec "amount" on pourrait croire à un nombre et non un prix
+    - Tu devras également changer la relation Many To Many qui ne se représente pas exactement comme ça dans le langage merise, tu devrais le représenter via l'utilisation de cardinalités 0, N/1, N <=> 0, N/1, N
+    - Tu peux aussi renommer le champ "amount" en "prince", car avec "amount" on pourrait croire à un nombre et non un prix
 
 - La table Order:
-1. Il faudrait renommer le champ "total_amount" en "total_price" pour les mêmes raisons que Product
+    - Il faudrait renommer le champ "total_amount" en "total_price" pour les mêmes raisons que Product
 
 - Toutes les tables:
-1. Dans le langage merise, l'id doit être mis en valeur, il faudrait donc le souligné
+    - Dans le langage merise, l'id doit être mis en valeur, il faudrait donc le souligné
 
 # Feedback général:
 
-1. Ce MCD est un bon départ, il y a encore un peu de travail à faire notamment :
+- Ce MCD est un bon départ, il y a encore un peu de travail à faire notamment :
     - Gestion des stocks, là il n'y en a pas, ce qui ne permet pas de constituer un site e-commerce correctement 
 
-2. En plus des choses manquantes, il y a quelques problèmes de conception généralisés, des manquements:
+- En plus des choses manquantes, il y a quelques problèmes de conception généralisés, des manquements:
     - Sur le produit, aucune table "Product Image" n'est disponible, comment les images sont stockées ? Je pense que tu pourrais l'inclure
     - Sur le produit, le système pourrait posséder un système de "Product Variant" pour désigner une variante de produit, car actuellement tu le représentes au travers du champ "type" mais c'est très peu scalable dans un site e-commerce qui "évolue".
     - Sur le user, on ne sait pas comment est stocké le mot de passe, mais le nommage du champ "password" laisse croire que celui-ci est stocké en clair, ⚠️ il doit être stocké sous forme de hash via une méthode adaptée (argon2i par exemple).
