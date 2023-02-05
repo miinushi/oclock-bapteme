@@ -6,17 +6,17 @@ En avant toute !
 
 - La table Address:
     - Il faudra que tu renommes le champ "adress" car il est mal orthographié 
-    - Il faudra également modifier la cardinalité 0, N avec User en 1, N car dans un modèle classique, lorsque l'User se login, il devrait avoir moins une adresse
+    - Il faudra également modifier la cardinalité 0, N avec User en 1, N car dans un modèle classique, lorsque l'User se login, il devrait avoir au moins une adresse
 
 - La table Product:
     - Tu devras également changer la relation Many To Many qui ne se représente pas exactement comme ça dans le langage merise, tu devrais le représenter via l'utilisation de cardinalités 0, N/1, N <=> 0, N/1, N
-    - Tu peux aussi renommer le champ "amount" en "prince", car avec "amount" on pourrait croire à un nombre et non un prix
+    - Tu peux aussi renommer le champ "amount" en "price", car avec "amount" on pourrait croire à un nombre et non un prix
 
 - La table Order:
     - Il faudrait renommer le champ "total_amount" en "total_price" pour les mêmes raisons que Product
 
 - Toutes les tables:
-    - Dans le langage merise, l'id doit être mis en valeur, il faudrait donc le souligné
+    - Dans le langage merise, l'id doit être mis en valeur, il faudrait donc le souligner
 
 # Feedback général:
 
