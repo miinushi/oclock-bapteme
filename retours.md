@@ -16,7 +16,7 @@ Il y a quelques imperfections que je lui ai signalée pour qu'il puisse les revo
 
 # Apprenant 2 🟡
 
-L'apprenant numéro 2 semble également avoir plutôt bien compriss les consignes mais a eu un peu plus de difficultés sur l'implémentation notamment sur la partie "Recherche" qui ne fonctionne pas.
+L'apprenant numéro 2 semble également avoir plutôt bien compris les consignes mais a eu un peu plus de difficultés sur l'implémentation notamment sur la partie "Recherche" qui ne fonctionne pas.
 
 Je lui ai faits les retours adéquats pour qu'il puisse retravailler son projet mais son travail jusque-là est plutôt encourageant.
 
@@ -24,7 +24,7 @@ Je lui ai faits les retours adéquats pour qu'il puisse retravailler son projet 
 
 L'apprenant numéro 3 semble avoir plus de difficultés dans la réalisation de son projet que ses deux autres camarades, en somme, seule l'étape numéro 1 du projet fonctionne.
 
-Il y a encore du travail à accomplir de son côté pour qu'il puisse réussir, je lui ai donner quelques ressources pour l'aider à poursuivre son projet. Cependant, de mon avis, je pense qu'il
+Il y a encore du travail à accomplir de son côté pour qu'il puisse réussir, je lui ai donné quelques ressources pour l'aider à poursuivre son projet. Cependant, de mon avis, je pense qu'il
 n'est pas suffisant pour être validé.
 
 Je propose de garder un oeil sur l'étudiant pour voir s'il arrive à refaire son projet avec mes conseils, sinon une session de PAIR programming pourrait l'aider.
@@ -35,5 +35,5 @@ L'apprenant numéro 4 est celui qui est le plus en difficulté, il n'a pas réus
 
 Il semble cependant avoir compris quelques notions concernant les vues et le dataMapper.
 
-Je pense que son projet n'est pas réussi et qu'il faut qu'il le reprenne complètement. Comme il semble être en difficulté, je pense qu'il serait intéressant de planifier un 1: 1 
+Je pense que son projet n'est pas réussi et qu'il faut qu'il le reprenne complètement. Comme il semble être en difficulté, je pense qu'il serait intéressant de planifier un 1:1 
 pour évaluer les notions qui l'empêchent d'avancer et lui proposer un suivi plus personnalisé.
